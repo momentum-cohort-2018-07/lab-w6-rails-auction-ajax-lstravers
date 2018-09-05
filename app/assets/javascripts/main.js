@@ -1,6 +1,4 @@
-$(document).on("turbolinks:load", removeFlash);
-
-// $(document).ready(removeFlash)
+$(document).ready(removeFlash)
 
 function removeFlash() {
   setTimeout(() => {
