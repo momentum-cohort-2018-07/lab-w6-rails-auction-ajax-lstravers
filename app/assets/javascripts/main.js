@@ -8,5 +8,5 @@ function removeFlash() {
     $('#notice').fadeOut(300, function () {
       this.remove();
     });
-  }, 15000);
+  }, 3000);
 }
