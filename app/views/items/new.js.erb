@@ -1,0 +1,7 @@
+<%# <div class="back-link"><%= link_to '<< Back to All Items', items_path %></div> %>
+
+console.log('here is the new.js.erb being rendered')
+
+$('body').html('<h1>New Item</h1>');
+
+$('#form--new').html("<%=escape_javascript render partial: 'form', locals: {item: @item } %>");
